@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37D37B531D185DA4523EDFF0 /* libPods-TodayNBANews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A574A277BD90AC5C782AAFBA /* libPods-TodayNBANews.a */; };
+		9C2116EA1A229B0F005B4B1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116E81A229B0F005B4B1A /* LaunchScreen.xib */; };
+		9C2116EB1A229B0F005B4B1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116E91A229B0F005B4B1A /* Main.storyboard */; };
+		9C2116FC1A22AC3E005B4B1A /* SourceSansPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116F01A22AC3E005B4B1A /* SourceSansPro-Black.otf */; };
+		9C2116FD1A22AC3E005B4B1A /* SourceSansPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116F11A22AC3E005B4B1A /* SourceSansPro-BlackIt.otf */; };
+		9C2116FE1A22AC3E005B4B1A /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116F21A22AC3E005B4B1A /* SourceSansPro-Bold.otf */; };
+		9C2116FF1A22AC3E005B4B1A /* SourceSansPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116F31A22AC3E005B4B1A /* SourceSansPro-BoldIt.otf */; };
+		9C2117001A22AC3E005B4B1A /* SourceSansPro-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116F41A22AC3E005B4B1A /* SourceSansPro-ExtraLight.otf */; };
+		9C2117011A22AC3E005B4B1A /* SourceSansPro-ExtraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116F51A22AC3E005B4B1A /* SourceSansPro-ExtraLightIt.otf */; };
+		9C2117021A22AC3E005B4B1A /* SourceSansPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116F61A22AC3E005B4B1A /* SourceSansPro-It.otf */; };
+		9C2117031A22AC3E005B4B1A /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116F71A22AC3E005B4B1A /* SourceSansPro-Light.otf */; };
+		9C2117041A22AC3E005B4B1A /* SourceSansPro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116F81A22AC3E005B4B1A /* SourceSansPro-LightIt.otf */; };
+		9C2117051A22AC3E005B4B1A /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116F91A22AC3E005B4B1A /* SourceSansPro-Regular.otf */; };
+		9C2117061A22AC3E005B4B1A /* SourceSansPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116FA1A22AC3E005B4B1A /* SourceSansPro-Semibold.otf */; };
+		9C2117071A22AC3E005B4B1A /* SourceSansPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2116FB1A22AC3E005B4B1A /* SourceSansPro-SemiboldIt.otf */; };
+		9C21170D1A22AE1D005B4B1A /* UIFont+SupportFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C21170C1A22AE1D005B4B1A /* UIFont+SupportFonts.swift */; };
 		9C281E0E1A219A390082AE3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C281E0D1A219A390082AE3C /* AppDelegate.swift */; };
 		9C281E241A219A390082AE3C /* TodayNBANewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C281E231A219A390082AE3C /* TodayNBANewsTests.swift */; };
 		9C90C1491A22469C0040AF4B /* SCSwiftFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C90C1481A22469C0040AF4B /* SCSwiftFramework.framework */; };
 		9CC577041A21A01900F3A289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC577001A21A01900F3A289 /* ViewController.swift */; };
 		9CC577051A21A01900F3A289 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC577031A21A01900F3A289 /* Images.xcassets */; };
-		9CC577081A21A08200F3A289 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC577061A21A08200F3A289 /* LaunchScreen.xib */; };
-		9CC577091A21A08200F3A289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC577071A21A08200F3A289 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +41,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06B3D9AA4C53583E3FA2629B /* Pods-TodayNBANews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNBANews.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayNBANews/Pods-TodayNBANews.release.xcconfig"; sourceTree = "<group>"; };
+		58419DEBB54AF1CC631E5812 /* Pods-TodayNBANews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNBANews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayNBANews/Pods-TodayNBANews.debug.xcconfig"; sourceTree = "<group>"; };
+		9C2116E81A229B0F005B4B1A /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		9C2116E91A229B0F005B4B1A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9C2116F01A22AC3E005B4B1A /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
+		9C2116F11A22AC3E005B4B1A /* SourceSansPro-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackIt.otf"; sourceTree = "<group>"; };
+		9C2116F21A22AC3E005B4B1A /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		9C2116F31A22AC3E005B4B1A /* SourceSansPro-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldIt.otf"; sourceTree = "<group>"; };
+		9C2116F41A22AC3E005B4B1A /* SourceSansPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.otf"; sourceTree = "<group>"; };
+		9C2116F51A22AC3E005B4B1A /* SourceSansPro-ExtraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightIt.otf"; sourceTree = "<group>"; };
+		9C2116F61A22AC3E005B4B1A /* SourceSansPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-It.otf"; sourceTree = "<group>"; };
+		9C2116F71A22AC3E005B4B1A /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
+		9C2116F81A22AC3E005B4B1A /* SourceSansPro-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightIt.otf"; sourceTree = "<group>"; };
+		9C2116F91A22AC3E005B4B1A /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		9C2116FA1A22AC3E005B4B1A /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
+		9C2116FB1A22AC3E005B4B1A /* SourceSansPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldIt.otf"; sourceTree = "<group>"; };
+		9C21170C1A22AE1D005B4B1A /* UIFont+SupportFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+SupportFonts.swift"; sourceTree = "<group>"; };
 		9C281E081A219A390082AE3C /* TodayNBANews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNBANews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C281E0C1A219A390082AE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C281E0D1A219A390082AE3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C281E1D1A219A390082AE3C /* TodayNBANewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayNBANewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C281E221A219A390082AE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C281E231A219A390082AE3C /* TodayNBANewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayNBANewsTests.swift; sourceTree = "<group>"; };
+		9C473A551A22513900B8DB40 /* TodayNBANews-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TodayNBANews-Bridging-Header.h"; sourceTree = "<group>"; };
 		9C90C1481A22469C0040AF4B /* SCSwiftFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCSwiftFramework.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/TodayNBANews-bbsxyzuuwwcieufackvkwjwkyvia/Build/Products/Debug-iphoneos/SCSwiftFramework.framework"; sourceTree = "<group>"; };
 		9CC577001A21A01900F3A289 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CC577031A21A01900F3A289 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9CC577061A21A08200F3A289 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		9CC577071A21A08200F3A289 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A574A277BD90AC5C782AAFBA /* libPods-TodayNBANews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodayNBANews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C90C1491A22469C0040AF4B /* SCSwiftFramework.framework in Frameworks */,
+				37D37B531D185DA4523EDFF0 /* libPods-TodayNBANews.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +91,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DBCC21428D421C3B20A0639 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58419DEBB54AF1CC631E5812 /* Pods-TodayNBANews.debug.xcconfig */,
+				06B3D9AA4C53583E3FA2629B /* Pods-TodayNBANews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C2116E71A229AF5005B4B1A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9C2116E81A229B0F005B4B1A /* LaunchScreen.xib */,
+				9C2116E91A229B0F005B4B1A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9C2116EF1A22AC3E005B4B1A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9C2116F01A22AC3E005B4B1A /* SourceSansPro-Black.otf */,
+				9C2116F11A22AC3E005B4B1A /* SourceSansPro-BlackIt.otf */,
+				9C2116F21A22AC3E005B4B1A /* SourceSansPro-Bold.otf */,
+				9C2116F31A22AC3E005B4B1A /* SourceSansPro-BoldIt.otf */,
+				9C2116F41A22AC3E005B4B1A /* SourceSansPro-ExtraLight.otf */,
+				9C2116F51A22AC3E005B4B1A /* SourceSansPro-ExtraLightIt.otf */,
+				9C2116F61A22AC3E005B4B1A /* SourceSansPro-It.otf */,
+				9C2116F71A22AC3E005B4B1A /* SourceSansPro-Light.otf */,
+				9C2116F81A22AC3E005B4B1A /* SourceSansPro-LightIt.otf */,
+				9C2116F91A22AC3E005B4B1A /* SourceSansPro-Regular.otf */,
+				9C2116FA1A22AC3E005B4B1A /* SourceSansPro-Semibold.otf */,
+				9C2116FB1A22AC3E005B4B1A /* SourceSansPro-SemiboldIt.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		9C21170B1A22AE0C005B4B1A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9C21170C1A22AE1D005B4B1A /* UIFont+SupportFonts.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		9C281DFF1A219A390082AE3C = {
 			isa = PBXGroup;
 			children = (
 				9C281E0A1A219A390082AE3C /* TodayNBANews */,
 				9C281E201A219A390082AE3C /* TodayNBANewsTests */,
 				9C281E091A219A390082AE3C /* Products */,
+				4DBCC21428D421C3B20A0639 /* Pods */,
+				DD768C87C57862D1FE7DFFD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +159,8 @@
 		9C281E0A1A219A390082AE3C /* TodayNBANews */ = {
 			isa = PBXGroup;
 			children = (
+				9C21170B1A22AE0C005B4B1A /* Extension */,
+				9C2116E71A229AF5005B4B1A /* Storyboards */,
 				9CC576FF1A21A01900F3A289 /* Controller */,
 				9CC577011A21A01900F3A289 /* Frameworks */,
 				9CC577021A21A01900F3A289 /* Resources */,
@@ -93,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				9C281E0C1A219A390082AE3C /* Info.plist */,
+				9C473A551A22513900B8DB40 /* TodayNBANews-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,8 +199,6 @@
 		9CC576FF1A21A01900F3A289 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9CC577061A21A08200F3A289 /* LaunchScreen.xib */,
-				9CC577071A21A08200F3A289 /* Main.storyboard */,
 				9CC577001A21A01900F3A289 /* ViewController.swift */,
 			);
 			path = Controller;
@@ -135,9 +215,18 @@
 		9CC577021A21A01900F3A289 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9C2116EF1A22AC3E005B4B1A /* Font */,
 				9CC577031A21A01900F3A289 /* Images.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD768C87C57862D1FE7DFFD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A574A277BD90AC5C782AAFBA /* libPods-TodayNBANews.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C281E271A219A390082AE3C /* Build configuration list for PBXNativeTarget "TodayNBANews" */;
 			buildPhases = (
+				9E8ABBC4C51FA84A050B2C62 /* Check Pods Manifest.lock */,
 				9C281E041A219A390082AE3C /* Sources */,
 				9C281E051A219A390082AE3C /* Frameworks */,
 				9C281E061A219A390082AE3C /* Resources */,
+				77B81F8BFC526FAC8297F03B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,9 +311,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC577091A21A08200F3A289 /* Main.storyboard in Resources */,
-				9CC577081A21A08200F3A289 /* LaunchScreen.xib in Resources */,
+				9C2117061A22AC3E005B4B1A /* SourceSansPro-Semibold.otf in Resources */,
+				9C2117021A22AC3E005B4B1A /* SourceSansPro-It.otf in Resources */,
+				9C2116EB1A229B0F005B4B1A /* Main.storyboard in Resources */,
+				9C2116EA1A229B0F005B4B1A /* LaunchScreen.xib in Resources */,
+				9C2117071A22AC3E005B4B1A /* SourceSansPro-SemiboldIt.otf in Resources */,
+				9C2117051A22AC3E005B4B1A /* SourceSansPro-Regular.otf in Resources */,
+				9C2116FF1A22AC3E005B4B1A /* SourceSansPro-BoldIt.otf in Resources */,
+				9C2117011A22AC3E005B4B1A /* SourceSansPro-ExtraLightIt.otf in Resources */,
+				9C2117001A22AC3E005B4B1A /* SourceSansPro-ExtraLight.otf in Resources */,
 				9CC577051A21A01900F3A289 /* Images.xcassets in Resources */,
+				9C2116FC1A22AC3E005B4B1A /* SourceSansPro-Black.otf in Resources */,
+				9C2117031A22AC3E005B4B1A /* SourceSansPro-Light.otf in Resources */,
+				9C2117041A22AC3E005B4B1A /* SourceSansPro-LightIt.otf in Resources */,
+				9C2116FE1A22AC3E005B4B1A /* SourceSansPro-Bold.otf in Resources */,
+				9C2116FD1A22AC3E005B4B1A /* SourceSansPro-BlackIt.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +338,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77B81F8BFC526FAC8297F03B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayNBANews/Pods-TodayNBANews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E8ABBC4C51FA84A050B2C62 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9C281E041A219A390082AE3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -242,6 +378,7 @@
 			files = (
 				9CC577041A21A01900F3A289 /* ViewController.swift in Sources */,
 				9C281E0E1A219A390082AE3C /* AppDelegate.swift in Sources */,
+				9C21170D1A22AE1D005B4B1A /* UIFont+SupportFonts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,29 +482,49 @@
 		};
 		9C281E281A219A390082AE3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58419DEBB54AF1CC631E5812 /* Pods-TodayNBANews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TodayNBANews-bbsxyzuuwwcieufackvkwjwkyvia/Build/Products/Debug-iphoneos",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					MAS_SHORTHAND,
+				);
 				INFOPLIST_FILE = TodayNBANews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TodayNBANews/TodayNBANews-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		9C281E291A219A390082AE3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B3D9AA4C53583E3FA2629B /* Pods-TodayNBANews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TodayNBANews-bbsxyzuuwwcieufackvkwjwkyvia/Build/Products/Debug-iphoneos",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					MAS_SHORTHAND,
+				);
 				INFOPLIST_FILE = TodayNBANews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TodayNBANews/TodayNBANews-Bridging-Header.h";
 			};
 			name = Release;
 		};

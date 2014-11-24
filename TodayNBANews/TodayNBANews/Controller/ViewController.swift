@@ -7,27 +7,27 @@
 //
 
 import UIKit
-import Alamofire
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    private var innerView: UIView?;
+    
+    override func viewDidLoad()
+    {
+        UIApplication.sharedApplication().setStatusBarHidden(true, withAnimation: UIStatusBarAnimation.None)
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        Alamofire.request(.GET, "http://httpbin.org/get", parameters: ["foo": "bar"])
-            .response { (request, response, data, error) in
-                println(request)
-                println(response)
-                println(error)
+        self.innerView = UIView()
+        if let view1 = self.innerView {
+            let superview = self.view
+            superview.addSubview(view1)
+            view1.backgroundColor = UIColor.greenColor()
+            view1.setTranslatesAutoresizingMaskIntoConstraints(false)
+            let padding = UIEdgeInsetsMake(10, 10, 10, 10)
+            view1.makeConstraints({ (make: MASConstraintMaker!) -> Void in
+                make.edges.equalTo()(superview).with().insets()(padding)
+                return
+            })
         }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

@@ -1,1 +1,17 @@
+PODS:
+  - CocoaLumberjack (1.9.2):
+    - CocoaLumberjack/Extensions (= 1.9.2)
+  - CocoaLumberjack/Core (1.9.2)
+  - CocoaLumberjack/Extensions (1.9.2):
+    - CocoaLumberjack/Core
+  - Masonry (0.5.3)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - Masonry
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 205769c032b5fef85b92472046bcc8b7e7c8a817
+  Masonry: 35368c2ca9577ca87722c12fc52c4bad9b1c1516
+
 COCOAPODS: 0.35.0
